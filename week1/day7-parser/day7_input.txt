@@ -1,0 +1,23 @@
+help
+set a 1
+get a
+set a 2
+get a
+
+set b 100
+list
+get c
+del a
+get a
+set key_with_long_name 5
+set k 3
+set
+get
+foo
+set x abc
+set    b    7
+list
+set n -5
+get n
+list
+quit

@@ -1,0 +1,22 @@
+commands: help | set <k> <v> | get <k> | del <k> | list | quit
+OK
+1
+OK
+2
+OK
+list: a=2 b=100
+ERR: not found
+OK
+ERR: not found
+ERR: key too long
+OK
+ERR: bad args
+ERR: bad args
+ERR: unknown command
+ERR: bad value
+OK
+list: b=7 k=3
+OK
+-5
+list: b=7 k=3 n=-5
+BYE

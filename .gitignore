@@ -1,0 +1,33 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+
+# 构建目录
+build/
+Debug/
+Release/
+dist/
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+
+# 嵌入式工程文件（第 3 周后可能产生）
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.scvd
+.stmxproject
+.mxproject
